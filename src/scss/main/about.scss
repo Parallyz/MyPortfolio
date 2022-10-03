@@ -1,0 +1,110 @@
+.about {
+   padding: 35px 0;
+   position: relative;
+   margin-bottom: 50px;
+   @media (min-width: 768px) {
+      margin-bottom: 100px;
+   }
+}
+
+.block {
+   &__btn {
+      padding: 15px;
+      border-radius: 5px;
+      background-color: $color-black;
+      color: $color-white;
+      transition: all 0.3s ease-in-out;
+      display: inline-block;
+
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+      transform: scale(1);
+      animation: pulse 2s infinite;
+      &:hover {
+         transform: translate(0, -5px);
+      }
+   }
+   @media (min-width: 768px) {
+      display: flex;
+
+      align-items: center;
+   }
+   &__image {
+      position: relative;
+      max-width: 475px;
+      width: 100%;
+      transition: all 0.3s ease-in-out;
+
+      img {
+         max-width: 100%;
+         filter: grayscale(1);
+      }
+      &::before {
+         content: "";
+         position: absolute;
+
+         z-index: -1;
+         top: -35px;
+         left: -50px;
+         max-width: 150px;
+         max-height: 190px;
+         width: 100%;
+         height: 100%;
+
+         background: url("../img/bg_img.png") 50% / cover no-repeat;
+      }
+      &-left-decoration {
+         clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+
+         &::before {
+            top: -35px;
+            left: -50px;
+         }
+      }
+      @media (max-width: 768px) {
+         margin: 0 auto;
+      }
+   }
+   &__image-decoration {
+      padding: 35px;
+      @media (min-width: 768px) {
+         padding-left: 50px;
+      }
+      @media (min-width: 1350px) {
+         padding: 0;
+      }
+   }
+   &__info-right {
+      @media (min-width: 768px) {
+         padding-left: 55px;
+      }
+   }
+   &__info-left {
+      @media (min-width: 768px) {
+         padding-right: 55px;
+      }
+   }
+
+   &__info-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 36px;
+      color: $color-red;
+      margin-bottom: 30px;
+   }
+
+   &__info-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 170%;
+      max-width: 650px;
+      margin-bottom: 45px;
+
+      @media (max-width: 768px) {
+         padding: 10px;
+         background: white;
+         border-radius: 5px;
+      }
+   }
+}
