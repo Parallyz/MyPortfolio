@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link href="css/style.min.css" rel="stylesheet" />
+  
+  <link rel="icon" href="img/logo.png" />
+  <title>Portfolio</title>
+</head>
+
+  <body>
+    <header>
+  <div class="header">
+    <div class="container">
+      <div class="header__container">
+        <nav>
+          <ul class="nav__menu">
+            <li>
+              <a class="nav__link nav__link-active" data-goto=".main" href="#"
+                >Home</a
+              >
+            </li>
+            <li><a class="nav__link" data-goto=".about" href="#">About</a></li>
+            <li>
+              <a class="nav__link" data-goto=".skills" href="#">Skills</a>
+            </li>
+            <li><a class="nav__link" data-goto=".works" href="#">Works</a></li>
+            <li>
+              <a class="nav__link" data-goto=".contacts" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="section" id="main">
+  <div class="main main__section">
+    <div class="container">
+      <h1 class="main__title js-rellax-title">Vladyslav Verus</h1>
+      <div class="main__description js-rellax-subtitle">
+        <h2>Junior Front-end Developer</h2>
+      </div>
+      <div class="main__social">
+        <a
+          href="https://github.com/Parallyz"
+          target="_blank"
+          class="social js-rellax-social"
+        >
+          <svg><use xlink:href="img/icons/icons.svg#social_github"></use></svg
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/vladyslav-verus-7175b91ba/"
+          class="social js-rellax-social"
+          target="_blank"
+        >
+          <svg><use xlink:href="img/icons/icons.svg#social_linkedin"></use></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="section" id="about">
+  <div class="about">
+    <div class="container">
+      <div class="about__block block">
+        <div class="block__image-decoration block__image-right">
+          <div class="block__image js-rellax-img">
+            <img loading="lazy" src="img/photo.png" alt="alt" />
+          </div>
+        </div>
+        <div class="block__info-right">
+          <div class="block__info-title js-rellax-title">About Me</div>
+          <div class="block__info-description js-rellax-subtitle">
+            A persistent person who is looking for a friendly team in which he
+            seeks to use and develop his skills.
+          </div>
+          <a
+            class="block__btn"
+            href="files/Verus_Vladyslav-CV.pdf"
+            download="Verus_Vladyslav-CV"
+            class="js-rellax-btn"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section" id="skills">
+  <div class="skills">
+    <div class="container">
+      <div class="skills__block block">
+        <div class="block__info-left">
+          <div class="block__info-title js-rellax-title">Skills</div>
+          <div class="block__info-description js-rellax-subtitle">
+            I enjoy creating things that live on the internet, whether that be
+            websites, applications, or anything in between.
+          </div>
+          <div class="block__skills">
+            <div class="skill__container js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#html-icon"></use></svg>
+              <div class="skill__title">HTML</div>
+            </div>
+            <div class="skill__container js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#css-icon"></use></svg>
+              <div class="skill__title">CSS</div>
+            </div>
+            <div class="skill__container js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#sass-icon"></use></svg>
+              <div class="skill__title">SASS</div>
+            </div>
+            <div class="skill__container js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#js-icon"></use></svg>
+              <div class="skill__title">Javascript</div>
+            </div>
+            <div class="skill__container js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#ts-icon"></use></svg>
+              <div class="skill__title">Typescript</div>
+            </div>
+            <div class="skill__container js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#react-icon"></use></svg>
+              <div class="skill__title">React</div>
+            </div>
+            <div class="skill__container js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#redux-icon"></use></svg>
+              <div class="skill__title">Redux</div>
+            </div>
+            <div class="skill__container skill--webpack js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#webpack"></use></svg>
+
+              <div class="skill__title">Webpack</div>
+            </div>
+            <div class="skill__container js-rellax-skills">
+              <svg><use xlink:href="img/icons/icons.svg#gulp"></use></svg>
+              <div class="skill__title">Gulp</div>
+            </div>
+          </div>
+        </div>
+        <div class="block__image-decoration block__image-right">
+          <div class="block__image js-rellax-img">
+            <img loading="lazy" src="img/skills.png" alt="alt" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skills__bg-deco">
+      <!--<img  loading="lazy" src="img/bg_skills.png" alt="alt">-->
+    </div>
+  </div>
+</section>
+ <section class="section" id="works">
+  <div class="works">
+    <div class="container js-rellax-swiper">
+      <div class="swiper swiper__work">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="block">
+              <div class="block__image-decoration block__image-right">
+                <div class="block__image">
+                  <a href="https://compass-group.com.ua/" target="_blank">
+                    <img
+                      loading="lazy"
+                      src="img/works/compass.jpg"
+                      alt="alt"
+                      class="swiper__img"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="block__info-right">
+                <div class="block__info-title">Work</div>
+                <div class="block__info-sub-title">Compass group</div>
+                <div class="block__info-description">
+                  International transportation Passenger transportation from
+                  Ukraine to Europe
+                </div>
+                <div class="block__info-footer tech">
+                  <div class="tech__container">
+                    <div class="tech__block">HTML</div>
+                    <div class="tech__block">Sass</div>
+                    <div class="tech__block">Javscript</div>
+                    <div class="tech__block">Jquery</div>
+                    <div class="tech__block">PHP</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block">
+              <div class="block__image-decoration block__image-right">
+                <div class="block__image">
+                  <a href="https://parallyz.github.io/endFt/" target="_blank">
+                    <img
+                      loading="lazy"
+                      src="img/works/endft.png"
+                      alt="alt"
+                      class="swiper__img"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="block__info-right">
+                <div class="block__info-title">Landing</div>
+                <div class="block__info-sub-title">EndFt</div>
+                <div class="block__info-description">
+                  Discover Collect, & Sell Extraordinary NFTs
+                </div>
+                <div class="block__info-footer tech">
+                  <div class="tech__container">
+                    <div class="tech__block">HTML</div>
+                    <div class="tech__block">Sass</div>
+                    <div class="tech__block">Javscript</div>
+                    <div class="tech__block">Gulp</div>
+                  </div>
+                  <a
+                    href="https://github.com/Parallyz/endFt"
+                    class="social"
+                    target="_blank"
+                  >
+                    <svg>
+                      <use xlink:href="img/icons/icons.svg#social_github"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block">
+              <div class="block__image-decoration block__image-right">
+                <div class="block__image">
+                  <a href="https://parallyz.github.io/Tivo/" target="_blank">
+                    <img
+                      loading="lazy"
+                      src="img/works/tivo.jpg"
+                      alt="alt"
+                      class="swiper__img"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="block__info-right">
+                <div class="block__info-title">Landing</div>
+                <div class="block__info-sub-title">Tivo</div>
+                <div class="block__info-description">
+                  Landing with modal windows and parallax effects
+                </div>
+                <div class="block__info-footer tech">
+                  <div class="tech__container">
+                    <div class="tech__block">HTML</div>
+                    <div class="tech__block">Sass</div>
+                    <div class="tech__block">Javscript</div>
+                    <div class="tech__block">JQuery</div>
+                    <div class="tech__block">Gulp</div>
+                  </div>
+                  <a
+                    href="https://github.com/Parallyz/Tivo"
+                    class="social"
+                    target="_blank"
+                  >
+                    <svg>
+                      <use xlink:href="img/icons/icons.svg#social_github"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block">
+              <div class="block__image-decoration block__image-right">
+                <div class="block__image">
+                  <a href="https://parallyz.github.io/Car/" target="_blank">
+                    <img
+                      loading="lazy"
+                      src="img/works/car.png"
+                      alt="alt"
+                      class="swiper__img"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="block__info-right">
+                <div class="block__info-title">Landing</div>
+                <div class="block__info-sub-title">Global auto</div>
+                <div class="block__info-description">
+                  Landing page of a company selling cars
+                </div>
+                <div class="block__info-footer tech">
+                  <div class="tech__container">
+                    <div class="tech__block">HTML</div>
+                    <div class="tech__block">Sass</div>
+                    <div class="tech__block">Javscript</div>
+                    <div class="tech__block">Gulp</div>
+                  </div>
+                  <a
+                    href="https://github.com/Parallyz/Car"
+                    class="social"
+                    target="_blank"
+                  >
+                    <svg>
+                      <use xlink:href="img/icons/icons.svg#social_github"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block">
+              <div class="block__image-decoration block__image-right">
+                <div class="block__image">
+                  <a
+                    href="https://github.com/Parallyz/image-search-react"
+                    target="_blank"
+                  >
+                    <img
+                      loading="lazy"
+                      src="img/works/img-search.png"
+                      alt="alt"
+                      class="swiper__img"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="block__info-right">
+                <div class="block__info-title">Project</div>
+                <div class="block__info-sub-title">Image search</div>
+                <div class="block__info-description">
+                  This is a theme-based image search project with infinite
+                  scrolling
+                </div>
+                <div class="block__info-footer tech">
+                  <div class="tech__container">
+                    <div class="tech__block">React</div>
+                    <div class="tech__block">Javscript</div>
+                    <div class="tech__block">Css</div>
+                  </div>
+                  <a
+                    href="https://github.com/Parallyz/image-search-react"
+                    class="social"
+                    target="_blank"
+                  >
+                    <svg>
+                      <use xlink:href="img/icons/icons.svg#social_github"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block">
+              <div class="block__image-decoration block__image-right">
+                <div class="block__image">
+                  <a
+                    href="https://github.com/Parallyz/Store_React"
+                    target="_blank"
+                  >
+                    <img
+                      loading="lazy"
+                      src="img/works/admin-panel.png"
+                      alt="alt"
+                      class="swiper__img"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="block__info-right">
+                <div class="block__info-title">Project</div>
+                <div class="block__info-sub-title">Admin panel</div>
+                <div class="block__info-description">
+                  This is an admin panel project for administrative data
+                  management. Data is pulled from
+                  <a href="https://dummyjson.com/" target="_blank">
+                    https://dummyjson.com/</a
+                  >
+                </div>
+                <div class="block__info-footer tech">
+                  <div class="tech__container">
+                    <div class="tech__block">React</div>
+                    <div class="tech__block">Typescript</div>
+                    <div class="tech__block">RTKQuery</div>
+                    <div class="tech__block">Redux</div>
+                    <div class="tech__block">Sass</div>
+                    <div class="tech__block">Webpack</div>
+                  </div>
+                  <a
+                    href="https://github.com/Parallyz/Store_React"
+                    class="social"
+                    target="_blank"
+                  >
+                    <svg>
+                      <use xlink:href="img/icons/icons.svg#social_github"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section" id="contacts">
+  <div class="contacts block">
+    <div class="container">
+      <div class="block__contacts-container">
+        <div class="block__info-title js-rellax-title">Get in Touch</div>
+        <div class="contacts__container">
+          <div class="block__info-description js-rellax-subtitle">
+            Drop me a line. I would like to hear from you.
+          </div>
+
+          <a
+            class="block__btn js-rellax-btn"
+            href="mailto:vladislav.verus@gmail.com"
+            >Send me a message</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer>
+  <div class="footer__container">
+    <div class="footer-social">
+      <div class="main__social">
+        <a
+          href="https://github.com/Parallyz"
+          target="_blank"
+          class="social js-rellax-social"
+        >
+          <svg><use xlink:href="img/icons/icons.svg#social_github"></use></svg
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/vladyslav-verus-7175b91ba/"
+          target="_blank"
+          class="social js-rellax-social"
+        >
+          <svg><use xlink:href="img/icons/icons.svg#social_linkedin"></use></svg
+        ></a>
+      </div>
+    </div>
+    <div class="footer__copyrigth js-rellax-title">
+      Develop by Vladyslav Verus
+    </div>
+    <div class="footer__deco"></div>
+  </div>
+</footer>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
