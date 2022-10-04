@@ -1,5 +1,3 @@
-.swiper__work {
-}
 .works {
    position: relative;
    &::before {
@@ -119,21 +117,6 @@
          bottom: 0;
       }
    }
-   .block__image {
-      //padding: 0px 0px 60% 0px;
-      //overflow: hidden;
-      //position: relative;
-      //img {
-      //   width: 100%;
-      //   height: 100%;
-      //   object-fit: cover;
-      //   position: absolute;
-      //   top: 0;
-      //   left: 0;
-      //}
-   }
-   .block__image-decoration {
-   }
 }
 .swiper-wrapper {
    padding-bottom: 40px;
@@ -150,10 +133,6 @@
       line-height: 27px;
       color: $color-red;
       margin-bottom: 25px;
-   }
-   &__info-footer {
-   }
-   &__info-description {
    }
 }
 
