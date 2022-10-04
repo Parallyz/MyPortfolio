@@ -30,7 +30,6 @@
          width: 100%;
          min-height: 300px;
          object-fit: cover;
-         clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
       }
       .block__image {
          max-height: 600px;
@@ -69,7 +68,7 @@
          left: unset;
          right: 35px;
       }
-      @media (min-width: $maxWidthContainer) {
+      @media (min-width: 1350px) {
          left: 450px;
       }
 
@@ -115,7 +114,7 @@
    .swiper-pagination-bullets.swiper-pagination-horizontal,
    .swiper-pagination-custom,
    .swiper-pagination-fraction {
-      @media (min-width: $maxWidthContainer) {
+      @media (min-width: 1350px) {
          left: 65px;
          bottom: 0;
       }

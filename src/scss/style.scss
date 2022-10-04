@@ -1,14 +1,6 @@
-@import 'fonts';
-@import "./config/mixins";
-@import "./config/variables";
-@import "./config/normalize";
+@import "fonts";
+@import "./config/config";
 
+@import "./blocks/blocks";
 
-
-@import "./main/main";
-@import "./main/about";
-@import "./main/skills";
-@import "./main/contacts";
-@import "./main/swiper";
-@import "./main/header";
-@import "./main/footer";
+@import "./components/block.scss";

@@ -1,0 +1,8 @@
+.about {
+   padding: 35px 0;
+   position: relative;
+   margin-bottom: 50px;
+   @media (min-width: 768px) {
+      margin-bottom: 100px;
+   }
+}

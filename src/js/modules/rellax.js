@@ -21,7 +21,7 @@ sr.reveal(".js-rellax-img", {
   delay: 0,
   interval: 150,
   viewFactor: 0,
-  scale: 0.7,
+  scale: 0.8,
 });
 sr.reveal(".js-rellax-social", {
   delay: 250,

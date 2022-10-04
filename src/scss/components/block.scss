@@ -1,12 +1,3 @@
-.about {
-   padding: 35px 0;
-   position: relative;
-   margin-bottom: 50px;
-   @media (min-width: 768px) {
-      margin-bottom: 100px;
-   }
-}
-
 .block {
    &__btn {
       padding: 15px;
@@ -28,6 +19,12 @@
 
       align-items: center;
    }
+
+   &__contacts-container {
+      background-color: $color-white;
+      padding: 30px;
+      border-radius: 5px;
+   }
    &__image {
       position: relative;
       max-width: 475px;
@@ -36,7 +33,6 @@
 
       img {
          max-width: 100%;
-         filter: grayscale(1);
       }
       &::before {
          content: "";
@@ -106,5 +102,16 @@
          background: white;
          border-radius: 5px;
       }
+   }
+
+   .img--gray {
+      filter: grayscale(1);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+         filter: grayscale(0);
+      }
+   }
+   .img--polygon {
+      clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
    }
 }
