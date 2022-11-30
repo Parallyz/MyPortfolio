@@ -48,61 +48,13 @@
          display: block;
          margin-bottom: 10px;
          transition: all 0.2s ease-in-out;
-         fill: $color-black;
+
          &:hover {
             transform: scale(1.15);
          }
       }
-      &:nth-child(1):hover {
-         svg {
-            fill: $color-html;
-         }
-      }
-      &:nth-child(2):hover {
-         svg {
-            fill: $color-css;
-         }
-      }
-      &:nth-child(3):hover {
-         svg {
-            fill: $color-sass;
-         }
-      }
-      &:nth-child(4):hover {
-         svg {
-            fill: $color-javascript;
-         }
-      }
-      &:nth-child(5):hover {
-         svg {
-            fill: $color-typescript;
-         }
-      }
-      &:nth-child(6):hover {
-         svg {
-            fill: $color-react;
-         }
-      }
-      &:nth-child(7):hover {
-         svg {
-            fill: $color-redux;
-         }
-      }
+   }
 
-      &:nth-child(9):hover {
-         svg {
-            fill: $color-gulp;
-         }
-      }
-   }
-   &--webpack {
-      svg {
-         filter: grayscale(1);
-         &:hover {
-            filter: grayscale(0);
-         }
-      }
-   }
    &__title {
       text-align: center;
       font-size: 28px;
